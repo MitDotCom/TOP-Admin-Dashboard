@@ -21,3 +21,5 @@ Gear icon courtesy https://www.flaticon.com/free-icon/settings_2099058?term=gear
 Customer support icon courtesy https://www.flaticon.com/free-icon/customer-support_2951105?term=support&page=1&position=4&origin=search&related_id=2951105
 
 Notification bell icon courtesy https://www.flaticon.com/free-icon/notification_3239952?term=bell&page=1&position=12&origin=search&related_id=3239952
+
+Security shield icon courtesy https://www.flaticon.com/free-icon/security_102649?term=shield&page=1&position=3&origin=search&related_id=102649

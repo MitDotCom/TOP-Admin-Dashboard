@@ -12,6 +12,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -42,11 +47,45 @@ body {
 }
 
 #sidebar .top {
-    display: flex;
+    grid-column: 1 / 3;
     gap: 0.5vw;
     justify-content: center;
     align-items: center;
     grid-column: span 2;
+}
+
+#sidebar .top img {
+    grid-column-start: 1;
+}
+
+#sidebar .top h2 {
+    grid-column-start: 2;
+}
+
+#sidebar .middle {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+}
+
+#sidebar .middle a {
+    grid-column: 1 / 2;
+}
+
+#sidebar .middle p {
+    grid-column: 2 / 3;
+}
+
+#sidebar .bottom {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+}
+
+#sidebar .bottom a {
+    grid-column: 1 / 2;
+}
+
+#sidebar .bottom p {
+    grid-column: 2 / 3;
 }
 
 header {
