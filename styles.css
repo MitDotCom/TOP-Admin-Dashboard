@@ -4,10 +4,16 @@
 }
 
 :root {
+    box-sizing: border-box;
     font-family: Roboto;
 }
 
+* {
+    margin: 0;
+}
+
 body {
+    box-sizing: border-box;
     margin: 0;
     display: grid;
     grid-template-rows: 20vh 80vh;
@@ -15,33 +21,126 @@ body {
 }
 
 #sidebar {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    gap: 1vw;
     height: 100vh;
     background-color: rgb(159, 202, 240);
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 }
 
-#sidebar span img {
-    width: 4vw;
-    margin: 0 1vw;
+#sidebar > img {
+    width: 3vw;
+}
+
+#sidebar img {
+    width: 3vw;
+    position: relative;
+    bottom: 4px;
+}
+
+#sidebar .top {
+    display: flex;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
 }
 
 header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 3fr 1fr;
-    border: 1px solid black;
-    height: 20vh;
+    grid-template-rows: subgrid;
+    grid-template-columns: subgrid;
+    border-bottom: 2px solid grey;
+    min-height: 20vh;
     grid-row: 1 / 2;
     grid-column: 2 / 4;
 }
 
-header img {
-    width: 4vw;
+.header-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.search-bar {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search-bar form {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.search-bar input {
+    border-radius: 1rem;
+    width: 60%;
+}
+
+.header-left form img {
+    width: 1rem;
+}
+
+.admin-title {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.admin-title img {
+    image-rendering: pixelated;
+    justify-self: right;
+    align-self: center;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 4rem;
+}
+
+.admin-title.text {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.header-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+
+.top-right {
+    grid-row: 1 / 2;
+    align-content: center;
+}
+
+.top-right img {
+    image-rendering: pixelated;
+    width: 3rem;
+}
+
+.bottom-right {
+    display: flex;
+    gap: 1rem;
+    grid-row: 2 / 3;
+}
+
+.bottom-right a {
+    text-decoration: none;
 }
 
 section#main-section {
-    border: 1px solid black;
     background-color: antiquewhite;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
