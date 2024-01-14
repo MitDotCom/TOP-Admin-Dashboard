@@ -218,6 +218,10 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
+.project img {
+    width: 1.5rem;
+}
+
 .right-sidebar {
     display: grid;
     background-color: rgb(255, 245, 232);
