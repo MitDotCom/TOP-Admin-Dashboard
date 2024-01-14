@@ -23,3 +23,9 @@ Customer support icon courtesy https://www.flaticon.com/free-icon/customer-suppo
 Notification bell icon courtesy https://www.flaticon.com/free-icon/notification_3239952?term=bell&page=1&position=12&origin=search&related_id=3239952
 
 Security shield icon courtesy https://www.flaticon.com/free-icon/security_102649?term=shield&page=1&position=3&origin=search&related_id=102649
+
+Star icon courtesy https://www.flaticon.com/free-icon/star_149220?term=star&page=1&position=29&origin=tag&related_id=149220
+
+Eye icon courtesy https://www.flaticon.com/free-icon/seen_6497663?term=watching&page=1&position=37&origin=search&related_id=6497663
+
+Share icon courtesy https://www.flaticon.com/free-icon/share_1358023?term=share&page=1&position=1&origin=search&related_id=1358023
