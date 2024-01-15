@@ -22,7 +22,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     display: grid;
-    grid-template-rows: 20vh 100%;
+    grid-template-rows: 20vh minmax(80vh,100%);
     grid-template-columns: 1fr 4fr 1fr;
 }
 
@@ -32,7 +32,6 @@ body {
     grid-template-rows: 1fr 4fr 1fr 3fr;
     grid-template-columns: 1fr 4fr;
     gap: 1vw;
-    height: 100%;
     background-color: rgb(159, 202, 240);
     grid-row: 1 / 3;
     grid-column: 1 / 2;
@@ -259,26 +258,52 @@ header {
 }
 
 #right-sidebar {
-    display: grid;
     background-color: rgb(255, 245, 232);
+    display: grid;
+    grid-template-rows: minmax(50%,1fr) minmax(50%,1fr);
     grid-row: 2 / 3;
     grid-column: 3 / 4;
 }
 
 #right-sidebar h2{
-    margin: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .announcement-container {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 2px 4px 6px grey;
-    text-align: justify;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 6px grey;
+}
+
+.announcement-container div {
+    margin: 0 0.5rem;
 }
 
 .trending-admins-img img {
     width: 2rem;
+    position: relative;
+    top: 3px;
+}
+
+.trending-container {
+    padding-top: 1rem;
+    height: 80%;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 6px grey;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.trending-admins-img {
+    display: grid;
+    justify-items: center;
+}
+
+.trending-admins-text {
+    display: grid;
 }
