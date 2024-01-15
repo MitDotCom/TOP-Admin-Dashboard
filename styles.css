@@ -249,9 +249,13 @@ header {
 }
 
 .project .buttons {
-    margin: 0.25rem;
+    margin: 0.5rem;
     justify-self: end;
     align-self: end;
+}
+
+.project .buttons a {
+    margin: 0.1rem;
 }
 
 #right-sidebar {
@@ -262,10 +266,19 @@ header {
 }
 
 #right-sidebar h2{
-    margin: 0.5rem 0 -0.5rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
 }
 
-.announcements div {
+.announcement-container {
     background-color: white;
     border-radius: 0.5rem;
+    box-shadow: 2px 4px 6px grey;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trending-admins-img img {
+    width: 2rem;
 }

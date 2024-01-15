@@ -29,3 +29,11 @@ Star icon courtesy https://www.flaticon.com/free-icon/star_149220?term=star&page
 Eye icon courtesy https://www.flaticon.com/free-icon/seen_6497663?term=watching&page=1&position=37&origin=search&related_id=6497663
 
 Share icon courtesy https://www.flaticon.com/free-icon/share_1358023?term=share&page=1&position=1&origin=search&related_id=1358023
+
+Red gear admin icon courtesy https://www.flaticon.com/free-icon/administrator_2397707?term=admin&page=1&position=6&origin=search&related_id=2397707
+
+Blue head silhouette admin icon courtesy https://www.flaticon.com/free-icon/male_13466588?term=admin&page=1&position=36&origin=search&related_id=13466588
+
+Red shirt blue gear admin icon courtesy https://www.flaticon.com/free-icon/administrator_9119069?term=admin&page=1&position=55&origin=search&related_id=9119069
+
+Green shirt no face admin icon courtesy https://www.flaticon.com/free-icon/human_13756316?term=admin&page=1&position=84&origin=search&related_id=13756316
